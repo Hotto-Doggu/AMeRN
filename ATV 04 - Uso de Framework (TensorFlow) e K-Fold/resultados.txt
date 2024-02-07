@@ -1,0 +1,57 @@
+│ Hyperparameters                               │   Accuracy │   Precision │   Recall │   F1 Score │
+╞═══════════════════════════════════════════════╪════════════╪═════════════╪══════════╪════════════╡
+│ (0.001, 'adam', 'glorot_uniform', 'relu')  │    0.50    │    0.72     │  0.39   │    0.51     │
+│ (0.001, 'adam', 'glorot_uniform', 'gelu')  │    0.64    │    0.67     │  0.91   │    0.77     │
+│ (0.001, 'adam', 'glorot_uniform', 'elu')   │    0.50    │    0.61     │  0.67   │    0.64     │
+│ (0.001, 'adam', 'uniform', 'relu')         │    0.70    │    0.70     │  0.94   │    0.81     │
+│ (0.001, 'adam', 'uniform', 'gelu')         │    0.38    │    0.55     │  0.33   │    0.42     │
+│ (0.001, 'adam', 'uniform', 'elu')          │    0.68    │    0.70     │  0.91   │    0.79     │
+│ (0.001, 'sgd', 'glorot_uniform', 'relu')   │    0.66    │    0.66     │  1.00   │    0.80     │
+│ (0.001, 'sgd', 'glorot_uniform', 'gelu')   │    0.66    │    0.67     │  0.97   │    0.79     │
+│ (0.001, 'sgd', 'glorot_uniform', 'elu')    │    0.34    │    1.00     │  0.00   │    0.00     │
+│ (0.001, 'sgd', 'uniform', 'relu')          │    0.38    │    0.55     │  0.33   │    0.42     │
+│ (0.001, 'sgd', 'uniform', 'gelu')          │    0.58    │    0.77     │  0.52   │    0.62     │
+│ (0.001, 'sgd', 'uniform', 'elu')           │    0.42    │    0.64     │  0.27   │    0.38     │
+│ (0.001, 'adadelta', 'glorot_uniform', 'relu')│    0.66    │    0.66     │  1.00   │    0.80     │
+│ (0.001, 'adadelta', 'glorot_uniform', 'gelu')│    0.48    │    0.62     │  0.55   │    0.58     │
+│ (0.001, 'adadelta', 'glorot_uniform', 'elu')│    0.36    │    0.67     │  0.06   │    0.11     │
+│ (0.001, 'adadelta', 'uniform', 'relu')     │    0.54    │    0.73     │  0.48   │    0.58     │
+│ (0.001, 'adadelta', 'uniform', 'gelu')     │    0.34    │    0.50     │  0.12   │    0.20     │
+│ (0.001, 'adadelta', 'uniform', 'elu')      │    0.66    │    0.67     │  0.97   │    0.79     │
+│ (0.01, 'adam', 'glorot_uniform', 'relu')   │    0.34    │    1.00     │  0.00   │    0.00     │
+│ (0.01, 'adam', 'glorot_uniform', 'gelu')   │    0.36    │    0.55     │  0.18   │    0.27     │
+│ (0.01, 'adam', 'glorot_uniform', 'elu')    │    0.60    │    0.70     │  0.70   │    0.70     │
+│ (0.01, 'adam', 'uniform', 'relu')          │    0.68    │    0.67     │  1.00   │    0.80     │
+│ (0.01, 'adam', 'uniform', 'gelu')          │    0.66    │    0.66     │  1.00   │    0.80     │
+│ (0.01, 'adam', 'uniform', 'elu')           │    0.50    │    0.64     │  0.55   │    0.59     │
+│ (0.01, 'sgd', 'glorot_uniform', 'relu')    │    0.50    │    0.65     │  0.52   │    0.58     │
+│ (0.01, 'sgd', 'glorot_uniform', 'gelu')    │    0.66    │    0.66     │  1.00   │    0.80     │
+│ (0.01, 'sgd', 'glorot_uniform', 'elu')     │    0.38    │    0.75     │  0.09   │    0.16     │
+│ (0.01, 'sgd', 'uniform', 'relu')           │    0.60    │    0.64     │  0.91   │    0.75     │
+│ (0.01, 'sgd', 'uniform', 'gelu')           │    0.56    │    0.66     │  0.70   │    0.68     │
+│ (0.01, 'sgd', 'uniform', 'elu')            │    0.30    │    0.40     │  0.12   │    0.19     │
+│ (0.01, 'adadelta', 'glorot_uniform', 'relu')│    0.34    │    1.00     │  0.00   │    0.00     │
+│ (0.01, 'adadelta', 'glorot_uniform', 'gelu')│    0.58    │    0.67     │  0.73   │    0.70     │
+│ (0.01, 'adadelta', 'glorot_uniform', 'elu')│    0.50    │    0.72     │  0.39   │    0.51     │
+│ (0.01, 'adadelta', 'uniform', 'relu')      │    0.72    │    0.70     │  1.00   │    0.82     │
+│ (0.01, 'adadelta', 'uniform', 'gelu')      │    0.66    │    0.67     │  0.97   │    0.79     │
+│ (0.01, 'adadelta', 'uniform', 'elu')       │    0.46    │    0.67     │  0.36   │    0.47     │
+│ (0.1, 'adam', 'glorot_uniform', 'relu')    │    0.50    │    0.79     │  0.33   │    0.47     │
+│ (0.1, 'adam', 'glorot_uniform', 'gelu')    │    0.28    │    0.00     │  0.00   │    0.00     │
+│ (0.1, 'adam', 'glorot_uniform', 'elu')     │    0.36    │    1.00     │  0.03   │    0.06     │
+│ (0.1, 'adam', 'uniform', 'relu')           │    0.48    │    0.64     │  0.48   │    0.55     │
+│ (0.1, 'adam', 'uniform', 'gelu')           │    0.64    │    0.65     │  0.97   │    0.78     │
+│ (0.1, 'adam', 'uniform', 'elu')            │    0.36    │    1.00     │  0.03   │    0.06     │
+│ (0.1, 'sgd', 'glorot_uniform', 'relu')     │    0.34    │    1.00     │  0.00   │    0.00     │
+│ (0.1, 'sgd', 'glorot_uniform', 'gelu')     │    0.38    │    0.60     │  0.18   │    0.28     │
+│ (0.1, 'sgd', 'glorot_uniform', 'elu')      │    0.26    │    0.17     │  0.03   │    0.05     │
+│ (0.1, 'sgd', 'uniform', 'relu')            │    0.34    │    1.00     │  0.00   │    0.00     │
+│ (0.1, 'sgd', 'uniform', 'gelu')            │    0.54    │    0.75     │  0.45   │    0.57     │
+│ (0.1, 'sgd', 'uniform', 'elu')             │    0.70    │    0.70     │  0.97   │    0.81     │
+│ (0.1, 'adadelta', 'glorot_uniform', 'relu')│    0.68    │    0.67     │  1.00   │    0.80     │
+│ (0.1, 'adadelta', 'glorot_uniform', 'gelu')│    0.66    │    0.66     │  1.00   │    0.80     │
+│ (0.1, 'adadelta', 'glorot_uniform', 'elu') │    0.32    │    0.00     │  0.00   │    0.00     │
+│ (0.1, 'adadelta', 'uniform', 'relu')       │    0.34    │    1.00     │  0.00   │    0.00     │
+│ (0.1, 'adadelta', 'uniform', 'gelu')       │    0.54    │    0.68     │  0.58   │    0.62     │
+│ (0.1, 'adadelta', 'uniform', 'elu')        │    0.68    │    0.67     │  1.00   │    0.80     │
+╘═══════════════════════════════════════════════╧════════════╧═════════════╧══════════╧════════════╛
